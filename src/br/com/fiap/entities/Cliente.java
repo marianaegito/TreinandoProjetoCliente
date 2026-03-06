@@ -7,6 +7,7 @@ public class Cliente {
     private String cpf;
     private int idade;
     private double altura;
+    private Endereco endereco;
 
     // Botão direito - Generete... Getter and Setter
     // Setters e getters
@@ -44,8 +45,16 @@ public class Cliente {
         this.altura = altura;
     }
 
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
     // Botão direito - Generete... toString()
     // toString
+
 
     @Override
     public String toString() {
@@ -54,6 +63,7 @@ public class Cliente {
                 ",\n\ncpf='" + cpf + '\'' +
                 ",\n\nidade=" + idade +
                 ",\n\naltura=" + altura +
+                ",\n\nendereco=" + endereco +
                 '}';
     }
 }

@@ -77,7 +77,8 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco{" +
+        // Pode dar uma ajustada - Tirei "Endereco{" e deixei "Endereço"
+        return "\n\nEndereço " +
                 "\n\nlogradouro='" + logradouro + '\'' +
                 ",\n\nnumero=" + numero +
                 ",\n\ncomplemento='" + complemento + '\'' +
